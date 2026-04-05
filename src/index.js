@@ -4,14 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// 👇 ADD THIS
-import { HashRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom'; // ✅ ADD THIS
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* 👇 WRAP APP */}
-    <HashRouter>
+    <HashRouter>   {/* ✅ WRAP APP */}
       <App />
     </HashRouter>
   </React.StrictMode>

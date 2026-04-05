@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.27",
     "framer-motion": "^12.38.0",
-    "homepage": "https://github.com/iswaryavbsccs-rgb/Smart-College-Management-System",
+   "homepage": "https://iswaryavbsccs-rgb.github.io/Smart-College-Management-System/",
     "postcss": "^8.5.8",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
