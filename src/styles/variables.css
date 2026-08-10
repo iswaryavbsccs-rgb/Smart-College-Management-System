@@ -1,0 +1,56 @@
+:root {
+  /* Color Palette */
+  --teal: #184C4A;
+  --teal-2: #236B67;
+  --teal-3: #2E8783;
+  --teal-soft: #DCEBE9;
+  --maroon: #7A2230;
+  --maroon-soft: #F3E1E3;
+  --gold: #C99A2E;
+  --gold-light: #E7C567;
+  --gold-soft: #F6EBD2;
+  --lotus: #C24E7A;
+  --lotus-soft: #F7E3EC;
+  --cream: #F7F5EE;
+  --paper: #FFFFFF;
+  --ink: #1B2130;
+  --slate: #5B6373;
+  --slate-light: #8A91A0;
+  --line: #E4E0D2;
+  --red: #B23A3A;
+  --red-soft: #FBE6E6;
+  --green: #2E7D5B;
+  --green-soft: #E1F1E8;
+
+  /* Shadows */
+  --shadow-sm: 0 4px 12px rgba(24, 76, 74, 0.06);
+  --shadow: 0 10px 30px rgba(24, 76, 74, 0.10);
+  --shadow-lg: 0 20px 55px rgba(24, 76, 74, 0.20);
+  --shadow-glow: 0 0 25px rgba(201, 154, 46, 0.35);
+
+  /* Transitions */
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-smooth: cubic-bezier(0.22, 0.9, 0.32, 1);
+}
+
+[data-theme='dark'] {
+  --teal: #0F3331;
+  --teal-2: #19524F;
+  --teal-3: #247571;
+  --teal-soft: #1C3836;
+  --maroon: #A83648;
+  --maroon-soft: #381B21;
+  --gold: #E5B239;
+  --gold-light: #F3D784;
+  --gold-soft: #38301B;
+  --cream: #12161E;
+  --paper: #1B212D;
+  --ink: #EAF0F6;
+  --slate: #A0A9B8;
+  --slate-light: #677182;
+  --line: #2C3545;
+  --red: #E05656;
+  --red-soft: #3B1C1C;
+  --green: #38B07F;
+  --green-soft: #1B382B;
+}
